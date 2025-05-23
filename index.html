@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CP3</title>
+</head>
+<body>
+    <form id="form">
+        <label for="nomeProduto">Nome do produto: </label>
+        <input type="text" id="nomeProduto">
+
+        <label for="preco">Preço: </label>
+        <input type="number" id="preco">
+
+         <select id="categoria">
+            <option value="tecnologia">Tecnologia</option>
+            <option value="alimentos">Alimentos</option>
+            <option value="eletronicos">Eletronicos</option>
+         </select>
+
+        <button id="btnEnviar">Cadastrar produto</button>
+    </form>
+
+    <p id="mensagemErro"></p>
+    <div id="cadastroProdutos">
+     <h2>Produtos cadastrados</h2>
+    </div>
+</body>
+    <script src="app.js"></script>
+</html>
